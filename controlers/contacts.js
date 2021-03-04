@@ -1,11 +1,12 @@
-const { Contact } = require('../models/contact')
-const { respError } = require('../config/helper')
-const {
-    createContactVld,
-    deleteContactVld,
-    getContactVld,
-    updateContactVld
-} = require('../validations/contacts');
+const
+    { Contact } = require('../models/contact'),
+    { respError } = require('../config/helper'),
+    {
+        createContactVld,
+        deleteContactVld,
+        getContactVld,
+        updateContactVld
+    } = require('../validations/contacts');
 
 
 
